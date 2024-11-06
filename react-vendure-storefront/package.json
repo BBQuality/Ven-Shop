@@ -1,0 +1,33 @@
+{
+  "name": "webclient",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.4",
+    "formik": "^2.2.9",
+    "graphql": "^16.5.0",
+    "next": "12.1.6",
+    "next-svgr": "^0.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webclient": "file:",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.34",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "17.0.2",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24",
+    "typescript": "4.6.4"
+  }
+}

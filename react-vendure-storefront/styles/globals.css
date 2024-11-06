@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'KyivTypeTitling', 'KyivTypeSans';
+    src: url('/fonts/KyivTypeSans-VarGX.ttf') format('truetype'),
+         url('/fonts/KyivTypeTitling-VarGX.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Встановлення шрифту як основного для всього проекту */
+  body {
+    font-family: KyivTypeSans;
+     /* KyivTypeTitling, sans-serif */
+  }

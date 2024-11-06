@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+        position: relative;
+        right: 0%;
+        top: 16%;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+.nav ul {
+  list-style: none;
+        padding: 0.88em 1.8em;
+        display: flex;
+        cursor: pointer;
+        font-size: 0.98vmax;
+        font-weight: 600;
+        font-optical-sizing: auto;
+        font-size-adjust: 0.68;
+        margin: 0.076em 1.1em;
+        line-height: 0.72;
+        flex-direction: row;
+}
+
+.nav ul li {
+  margin-right: 16px;
+}
+
+a {
+  color: #e2e5f0e7;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
